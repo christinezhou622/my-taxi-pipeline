@@ -9,8 +9,8 @@ depends:
 materialization:
   type: table
   strategy: create+replace
-  incremental_key: pickup_datetime
-  time_granularity: timestamp
+  #incremental_key: pickup_datetime
+  #time_granularity: timestamp
 
 columns:
   - name: pickup_datetime
