@@ -8,7 +8,7 @@ depends:
 
 materialization:
   type: table
-  strategy: time_interval
+  strategy: create+replace
   incremental_key: pickup_datetime
   time_granularity: timestamp
 
